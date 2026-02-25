@@ -3,8 +3,8 @@ class Matteros < Formula
 
   desc "CLI-first legal ops orchestration with safe, auditable workflows"
   homepage "https://github.com/danielalkurdi/matteros"
-  url "https://github.com/danielalkurdi/matteros/archive/4c0e02a45a08cdde268f735c81c6f16f30a02d68.tar.gz"
-  sha256 "63da88e2515ec2255152c9001c5174ccfebeec1cf06167075adb05829a0d468a"
+  url "https://github.com/danielalkurdi/matteros/releases/download/v0.1.0/matteros-0.1.0.tar.gz"
+  sha256 "b9a04b72b10a655a18267191ad4a276fe656154c21d1153880d987158acabab7"
   license "AGPL-3.0-only"
   version "0.1.0"
 
