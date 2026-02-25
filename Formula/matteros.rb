@@ -14,8 +14,8 @@ class Matteros < Formula
     python = Formula["python@3.12"].opt_bin/"python3.12"
     venv = virtualenv_create(libexec, python)
 
-    # Install project plus dependencies into the virtualenv.
-    system python, "-m", "pip", "--python=#{venv.root}/bin/python", "install", buildpath
+    # Install full feature set so `web`, `tui`, and automation commands work out of the box.
+    system python, "-m", "pip", "--python=#{venv.root}/bin/python", "install", "#{buildpath}[all]"
     bin.install_symlink venv.root/"bin/matteros"
   end
 
